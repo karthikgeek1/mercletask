@@ -36,7 +36,7 @@ Highcharts.setOptions({
         this.series.name +
         "</b><br/>" +
         "<br/>" +
-        "<span style='color: #ffffff'>" + // Set the text color to white
+        "<span style='color: #ffffff'>" + 
         this.y +
         " Messages on " +
         Highcharts.dateFormat("%e %b", this.x) +
@@ -135,7 +135,7 @@ const EngagementHelper = {
             this.series.name +
             "</b><br/>" +
             "<br/>" +
-            "<span style='color: #ffffff'>" + // Set the text color to white
+            "<span style='color: #ffffff'>" + 
             this.y +
             " Messages on " +
             Highcharts.dateFormat("%e %b", this.x) +
